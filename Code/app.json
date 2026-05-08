@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "TrashPal",
+    "slug": "trashpal",
+    "newArchEnabled": false,
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a7a4a"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.trashpal",
+      "infoPlist": {
+        "NSCameraUsageDescription": "TrashPal needs camera access to identify waste items for recycling classification.",
+        "NSUserNotificationsUsageDescription": "TrashPal sends reminders when it's time to put your bins out."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a7a4a"
+      },
+      "package": "com.yourname.trashpal",
+      "permissions": [
+        "CAMERA",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "SCHEDULE_EXACT_ALARM"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "TrashPal needs camera access to identify waste items."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#1a7a4a"
+        }
+      ]
+    ]
+  }
+}
