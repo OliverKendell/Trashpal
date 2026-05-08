@@ -1,6 +1,6 @@
 # Trashpal
-Mobile Application to help users learn sustainable recycling ♻️
+TrashPal is a mobile application designed to help users learn about sustainable recycling ♻️
 
 ![Alt text](Assets/logo.png)
 
-I made Trashpal on the 02/05/2026 of may as a potential contender for the Engineers Without Borders Competition focused around LadyWood, Birmingham using Expo Evo to ship it to my Iphone.
+I created TrashPal on 02/05/2026 as a submission for the Engineers Without Borders competition, focused on Ladywood, Birmingham. The app was developed using Expo and run on iPhone via Expo Go.
